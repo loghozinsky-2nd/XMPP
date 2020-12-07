@@ -31,4 +31,8 @@ class SwitchUserViewController: UIViewController {
         delegate?.switchUser(to: userId)
     }
     
+    @IBAction func closeButtonDidTap(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
+    
 }

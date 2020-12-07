@@ -206,11 +206,26 @@
                                     <action selector="valueChanged:" destination="FtB-SP-c0I" eventType="valueChanged" id="3pk-ax-icn"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNd-A2-UBQ" userLabel="Close Button">
+                                <rect key="frame" x="370" y="44" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="WYS-r2-OxZ"/>
+                                    <constraint firstAttribute="width" constant="44" id="fUh-aG-rwC"/>
+                                </constraints>
+                                <state key="normal">
+                                    <imageReference key="image" image="xmark.rectangle.fill" catalog="system" renderingMode="template"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeButtonDidTap:" destination="FtB-SP-c0I" eventType="touchUpInside" id="vHY-ZX-gUb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Ff-vk-1L1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fgh-Gd-5y6" firstAttribute="top" secondItem="1Ff-vk-1L1" secondAttribute="top" constant="44" id="5cy-s6-sS0"/>
+                            <constraint firstItem="1Ff-vk-1L1" firstAttribute="trailing" secondItem="BNd-A2-UBQ" secondAttribute="trailing" id="MfB-q5-wv1"/>
+                            <constraint firstItem="BNd-A2-UBQ" firstAttribute="top" secondItem="1Ff-vk-1L1" secondAttribute="top" id="MhT-IM-FaQ"/>
                             <constraint firstItem="fgh-Gd-5y6" firstAttribute="centerX" secondItem="1Ff-vk-1L1" secondAttribute="centerX" id="f69-mg-YGO"/>
                         </constraints>
                     </view>
@@ -225,6 +240,7 @@
     </scenes>
     <resources>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="xmark.rectangle.fill" catalog="system" width="128" height="93"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
