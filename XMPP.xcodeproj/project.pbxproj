@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD364382A4443DCEFAC84B0C /* Pods_XMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBC2506A15DA0773687EB19 /* Pods_XMPP.framework */; };
 		D11D1F0E257CFF2900D724EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D1F0D257CFF2900D724EB /* AppDelegate.swift */; };
 		D11D1F10257CFF2900D724EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D1F0F257CFF2900D724EB /* SceneDelegate.swift */; };
 		D11D1F12257CFF2900D724EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D1F11257CFF2900D724EB /* ViewController.swift */; };
 		D11D1F15257CFF2900D724EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11D1F13257CFF2900D724EB /* Main.storyboard */; };
 		D11D1F17257CFF2900D724EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11D1F16257CFF2900D724EB /* Assets.xcassets */; };
 		D11D1F1A257CFF2900D724EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11D1F18257CFF2900D724EB /* LaunchScreen.storyboard */; };
+		D12AC4B5257D917C003B3C69 /* SelfMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AC4B4257D917C003B3C69 /* SelfMessageTableViewCell.swift */; };
+		D12AC4B8257D9205003B3C69 /* CompanionMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AC4B7257D9205003B3C69 /* CompanionMessageTableViewCell.swift */; };
+		D12AC4BC257DA813003B3C69 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AC4BB257DA813003B3C69 /* Message.swift */; };
+		D12AC4BF257DAA20003B3C69 /* API+Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AC4BE257DAA20003B3C69 /* API+Endpoint.swift */; };
+		D12AC4C2257DAAB2003B3C69 /* XMPPJID+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AC4C1257DAAB2003B3C69 /* XMPPJID+Extension.swift */; };
+		D12AC4D4257DC86C003B3C69 /* SwitchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12AC4D3257DC86C003B3C69 /* SwitchUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		333FF91AD5848D9C6BDBF1B3 /* Pods-XMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.debug.xcconfig"; path = "Target Support Files/Pods-XMPP/Pods-XMPP.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE204332B90E43B3A046C39 /* Pods-XMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP.release.xcconfig"; path = "Target Support Files/Pods-XMPP/Pods-XMPP.release.xcconfig"; sourceTree = "<group>"; };
 		D11D1F0A257CFF2900D724EB /* XMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11D1F0D257CFF2900D724EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D11D1F0F257CFF2900D724EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		D11D1F16257CFF2900D724EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11D1F19257CFF2900D724EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D11D1F1B257CFF2900D724EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12AC4B4257D917C003B3C69 /* SelfMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMessageTableViewCell.swift; sourceTree = "<group>"; };
+		D12AC4B7257D9205003B3C69 /* CompanionMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionMessageTableViewCell.swift; sourceTree = "<group>"; };
+		D12AC4BB257DA813003B3C69 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D12AC4BE257DAA20003B3C69 /* API+Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Endpoint.swift"; sourceTree = "<group>"; };
+		D12AC4C1257DAAB2003B3C69 /* XMPPJID+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XMPPJID+Extension.swift"; sourceTree = "<group>"; };
+		D12AC4D3257DC86C003B3C69 /* SwitchUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchUserViewController.swift; sourceTree = "<group>"; };
+		DBBC2506A15DA0773687EB19 /* Pods_XMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD364382A4443DCEFAC84B0C /* Pods_XMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		735356F4A663CCFD88968917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC2506A15DA0773687EB19 /* Pods_XMPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E8F19E7520E1DE6CD9A11C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				333FF91AD5848D9C6BDBF1B3 /* Pods-XMPP.debug.xcconfig */,
+				9EE204332B90E43B3A046C39 /* Pods-XMPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D11D1F01257CFF2900D724EB = {
 			isa = PBXGroup;
 			children = (
 				D11D1F0C257CFF2900D724EB /* XMPP */,
 				D11D1F0B257CFF2900D724EB /* Products */,
+				B0E8F19E7520E1DE6CD9A11C /* Pods */,
+				735356F4A663CCFD88968917 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,35 @@
 			children = (
 				D11D1F0D257CFF2900D724EB /* AppDelegate.swift */,
 				D11D1F0F257CFF2900D724EB /* SceneDelegate.swift */,
-				D11D1F11257CFF2900D724EB /* ViewController.swift */,
-				D11D1F13257CFF2900D724EB /* Main.storyboard */,
+				D12AC4D6257DC877003B3C69 /* View */,
+				D1A83A09257DCDC800C71224 /* Model */,
+				D12AC4C1257DAAB2003B3C69 /* XMPPJID+Extension.swift */,
+				D12AC4BE257DAA20003B3C69 /* API+Endpoint.swift */,
 				D11D1F16257CFF2900D724EB /* Assets.xcassets */,
 				D11D1F18257CFF2900D724EB /* LaunchScreen.storyboard */,
 				D11D1F1B257CFF2900D724EB /* Info.plist */,
 			);
 			path = XMPP;
+			sourceTree = "<group>";
+		};
+		D12AC4D6257DC877003B3C69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D11D1F13257CFF2900D724EB /* Main.storyboard */,
+				D11D1F11257CFF2900D724EB /* ViewController.swift */,
+				D12AC4B4257D917C003B3C69 /* SelfMessageTableViewCell.swift */,
+				D12AC4B7257D9205003B3C69 /* CompanionMessageTableViewCell.swift */,
+				D12AC4D3257DC86C003B3C69 /* SwitchUserViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1A83A09257DCDC800C71224 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D12AC4BB257DA813003B3C69 /* Message.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D11D1F1E257CFF2900D724EB /* Build configuration list for PBXNativeTarget "XMPP" */;
 			buildPhases = (
+				112A5C723DCB47592933DFC0 /* [CP] Check Pods Manifest.lock */,
 				D11D1F06257CFF2900D724EB /* Sources */,
 				D11D1F07257CFF2900D724EB /* Frameworks */,
 				D11D1F08257CFF2900D724EB /* Resources */,
+				30829CC8D876B6C2237FD65E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +192,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		112A5C723DCB47592933DFC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30829CC8D876B6C2237FD65E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMPP/Pods-XMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D11D1F06257CFF2900D724EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D11D1F12257CFF2900D724EB /* ViewController.swift in Sources */,
+				D12AC4B8257D9205003B3C69 /* CompanionMessageTableViewCell.swift in Sources */,
 				D11D1F0E257CFF2900D724EB /* AppDelegate.swift in Sources */,
+				D12AC4BC257DA813003B3C69 /* Message.swift in Sources */,
+				D12AC4BF257DAA20003B3C69 /* API+Endpoint.swift in Sources */,
 				D11D1F10257CFF2900D724EB /* SceneDelegate.swift in Sources */,
+				D12AC4D4257DC86C003B3C69 /* SwitchUserViewController.swift in Sources */,
+				D12AC4C2257DAAB2003B3C69 /* XMPPJID+Extension.swift in Sources */,
+				D12AC4B5257D917C003B3C69 /* SelfMessageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +391,7 @@
 		};
 		D11D1F1F257CFF2900D724EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333FF91AD5848D9C6BDBF1B3 /* Pods-XMPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +411,7 @@
 		};
 		D11D1F20257CFF2900D724EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE204332B90E43B3A046C39 /* Pods-XMPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
